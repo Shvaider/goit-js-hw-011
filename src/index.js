@@ -3,10 +3,11 @@ import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-import { fetchImages } from './js/fetchImages';
 import { fadeEffect } from './js/preloader';
+import { fetchImages } from './js/fetchImages';
 
-//html el
+// HTML el
+
 const searchQuery = document.querySelector('input[name="searchQuery"]');
 const closeBtn = document.querySelector('.close-btn');
 const searchForm = document.querySelector('#search-form');
